@@ -29,6 +29,10 @@ h2 {
     color: #008001;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* Utils */
 
 .container {
@@ -57,4 +61,29 @@ h2 {
 
 #converse {
     background-color: #ffff00;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
 }
